@@ -2,6 +2,7 @@ package web;
 
 
 import com.codeborne.selenide.Configuration;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -13,6 +14,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 @Tag("web")
+@Feature("Проверки страницы авторизации")
 public class HomePageTests extends TestBase {
 
     HomePage homePage = new HomePage();
