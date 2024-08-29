@@ -173,5 +173,5 @@ gradle clean test -Denv=remote
 
 > К каждому UI-тесту в отчете прилагается видео
 <p align="center">
-  <img src="images/vide/ui-test.gif">
+  <img src="images/video/ui-test.gif">
 </p>
